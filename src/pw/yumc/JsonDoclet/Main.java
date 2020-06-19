@@ -1,6 +1,7 @@
 package pw.yumc.JsonDoclet;
 
 import com.sun.javadoc.DocErrorReporter;
+import com.sun.javadoc.LanguageVersion;
 import com.sun.javadoc.RootDoc;
 
 import javax.script.ScriptException;
@@ -45,5 +46,9 @@ public class Main {
             reporter.printError("Correct Json Doclet Can't Start!");
         }
         return canStart;
+    }
+
+    public static LanguageVersion languageVersion() {
+        return LanguageVersion.JAVA_1_5;
     }
 }

@@ -7,13 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43b98e9c-f1ee-4b90-aa99-018c4a4cb336" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/json_jdoc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/json_doclet.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/builds/json-jdoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/builds/json-jdoc.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/Gson-LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/gson-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/raidandfade/JsonDoclet/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pw/yumc/JsonDoclet/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pw/yumc/JsonDoclet/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +105,8 @@
       <option name="presentableId" value="Default" />
       <updated>1555138358073</updated>
       <workItem from="1591943492938" duration="17462000" />
-      <workItem from="1592529955043" duration="11917000" />
+      <workItem from="1592529955043" duration="13431000" />
+      <workItem from="1592554826823" duration="1608000" />
     </task>
     <servers />
   </component>
@@ -162,6 +158,10 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="907" height="364" key="GridCell.Tab.1.right/0.0.1858.1080@0.0.1858.1080" timestamp="1592474444784" />
+    <state x="92" y="92" width="1674" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1592557837241">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="92" y="92" width="1674" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1592557837241" />
     <state x="592" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1592541151406">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
