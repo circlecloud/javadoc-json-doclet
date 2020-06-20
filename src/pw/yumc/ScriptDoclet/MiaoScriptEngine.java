@@ -1,4 +1,4 @@
-package pw.yumc.JsonDoclet;
+package pw.yumc.ScriptDoclet;
 
 import javax.script.*;
 import java.io.File;

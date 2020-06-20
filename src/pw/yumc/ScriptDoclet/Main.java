@@ -1,4 +1,4 @@
-package pw.yumc.JsonDoclet;
+package pw.yumc.ScriptDoclet;
 
 import com.sun.javadoc.DocErrorReporter;
 import com.sun.javadoc.LanguageVersion;
@@ -17,7 +17,6 @@ public class Main {
     }
 
     public static int optionLength(String option) {
-        System.out.println(option);
         switch (option) {
             case "-js":
             case "-d":
@@ -30,7 +29,6 @@ public class Main {
     public static boolean validOptions(String[][] options, DocErrorReporter reporter) throws ScriptException, IOException {
         boolean canStart = false;
         for (String[] option : options) {
-            System.out.println(Arrays.toString(option));
             if ("-js".equals(option[0])) {
                 File parsejs = new File(option[1]);
                 if (!parsejs.exists()) {
@@ -45,6 +43,7 @@ public class Main {
         if (!canStart) {
             reporter.printError("Correct Json Doclet Can't Start!");
         }
+        Arrays.toString(new String[]{});
         return canStart;
     }
 
